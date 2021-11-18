@@ -1,0 +1,10 @@
+export { default as Home } from './Home/home';
+export { default as Bookings } from './Bookings/bookings';
+export { default as SignUp } from './SignUp/signup';
+export { default as Login } from './Login/login';
+export { default as Contact } from './Contact/contact';
+export { default as About } from './About/about';
+export { default as PasswordReset } from './PasswordReset/passwordReset';
+export { default as TCs } from './TCs/tcs';
+export { default as Page404 } from './Page404/PageNotFound';
+export { default as testComponentsPage } from './testComponentsPage';

@@ -1,0 +1,112 @@
+// Global style rules here
+
+$brand-blue: #1ea5fc;
+$brand-yellow: #ffeb6d;
+$brand-green: #1efc27;
+$brand-purple: #581efc;
+$brand-red: #fc1e1e;
+$brand-dark: #363636;
+
+.text-dark {
+  color: $brand-dark;
+  background: inherit;
+}
+.text-dark-hoverable {
+  background-color: inherit;
+  color: $brand-dark;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    color: lighten($brand-dark, 15%);
+  }
+}
+
+.bg-dark {
+  color: #fff;
+  background: $brand-dark;
+}
+.bg-dark-hoverable {
+  background-color: $brand-dark;
+  border-color: transparent;
+  color: #fff;
+
+  &:hover {
+    transition: background-color 0.2s ease-in-out;
+    color: darken(#fff, 15%);
+    background-color: lighten($brand-dark, 15%);
+  }
+}
+
+.bg-blue {
+  color: #fff;
+  background: $brand-blue;
+}
+.bg-blue-hoverable {
+  background-color: $brand-blue;
+  border-color: transparent;
+  color: #fff;
+
+  &:hover {
+    transition: background-color 0.2s ease-in-out;
+    color: darken(#fff, 5%);
+    background-color: lighten($brand-blue, 10%);
+  }
+}
+.bg-yellow {
+  color: #000000;
+  background: $brand-yellow;
+}
+.bg-yellow-hoverable {
+  background-color: $brand-yellow;
+  border-color: transparent;
+  color: #000000;
+
+  &:hover {
+    transition: background-color 0.2s ease-in-out;
+    color: lighten(#000000, 5%);
+    background-color: lighten($brand-yellow, 15%);
+  }
+}
+.bg-green {
+  color: #000000;
+  background: $brand-green;
+}
+.bg-green-hoverable {
+  background-color: $brand-green;
+  border-color: transparent;
+  color: #000000;
+
+  &:hover {
+    transition: background-color 0.2s ease-in-out;
+    color: lighten(#000000, 5%);
+    background-color: lighten($brand-green, 15%);
+  }
+}
+.bg-purple {
+  color: #000000;
+  background: $brand-purple;
+}
+.bg-purple-hoverable {
+  background-color: $brand-purple;
+  border-color: transparent;
+  color: #000000;
+
+  &:hover {
+    transition: background-color 0.2s ease-in-out;
+    color: lighten(#000000, 5%);
+    background-color: lighten($brand-purple, 15%);
+  }
+}
+
+.art-container {
+  width: clamp(250px, 300px, 350px);
+  height: clamp(250px, 300px, 350px);
+}
+.card-container {
+  width: clamp(300px, 350px, 400px);
+  height: auto;
+}
+
+.rounded {
+  border-radius: 50%;
+}
